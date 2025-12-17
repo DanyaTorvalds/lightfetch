@@ -11,7 +11,7 @@
 #include <ctime>
 
 std::string get_pretty_name();
-std::string cmd_output(const char* cmd);
+// std::string cmd_output(const char* cmd);
 void show_help_func();
 bool is_env_null(const char* env_name);
 
