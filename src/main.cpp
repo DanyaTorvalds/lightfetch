@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
 
     uname(&unameData);
 
-    if (uname(&unameData) == 0) {
+    if (uname(&unameData) != 0) {
         std::cerr << "uname() failed.\n";
     }
 
