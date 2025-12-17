@@ -10,11 +10,14 @@ For now, you can specify -j (or --joke) flag to get a random joke on a last line
 git clone --depth 1 https://github.com/wcupped/lightfetch.git
 ```
 
-## After that you need to run `install.sh` script
+## After that you need to run `make` command
 ```sh
-cd lightfetch && ./install.sh
+make
 ```
 
-You can also just build it and the lightfetch executable will appear in `build/` directory.
+And you can run executable from `build/` directory, but if you want to install it in your system, run:
+```sh
+sudo make install
+```
 
-Good luck using it!
+Good luck using lightfetch!
