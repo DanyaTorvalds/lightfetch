@@ -111,5 +111,5 @@ void show_help_func() {
     std::cout << "Usage: lightfetch [options]\n\n";
     std::cout << "Options:\n";
     std::cout << "  -h, --help    Show this help and exit\n";
-    std::cout << "  -j, --joke    Don't show joke at the last line.\n";
+    std::cout << "  -j, --joke    Show a joke at the last line.\n";
 }
